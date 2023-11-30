@@ -5,14 +5,14 @@ education:
     - course: Master's In Computer Science
       institution: University of Southern California
       year: Fall 2023
-email: ashmikaa@usc.edu
-first_name: Ashmika
-last_name: Gupte
+email: hthakur@usc.edu
+first_name: Hrishikesh
+last_name: Thakur
 organizations:
   - name: University of Southern California
-    url: "https://www.linkedin.com/in/ashmika-gupte/"
+    url: "https://www.linkedin.com/in/hrishikesh--thakur/"
 role: Student
-title: Ashmika Gupte
+title: Hrishikesh Thakur
 user_groups:
   - Students
 ---
