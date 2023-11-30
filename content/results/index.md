@@ -5,21 +5,24 @@ date: "2018-06-28T00:00:00Z"
 editable: true
 share: false
 ---
-
-This page contains key sections of the **Final Report** for the project focused on results to date.  It should be no more than 2 pages long.  An initial draft can be created at any point during the project, and can be refined as the project progresses.
-
 ## System and Model Performance
 
-Show the performance of the best system and model(s) developed, showing clearly the performance metrics and improvements over the baseline system as appropriate.  Create visualizations that show clearly these results.
+- Previous model's performance: High human-machine agreement (Cohen’s Kappa: .89); 88% for non-questions, 94% for option-posing questions, and 95% for wh-questions/invitations
+- New model’s performance: High human-machine agreement
+    - 82% for non-questions
+    - 82% for option-posing questions,
+    - 98% for wh-questions 
+    - 96% for invitations
 
-## Discussion of Findings
+![Accuracy](https://raw.githubusercontent.com/ckids-datafirst/2023-fall-forensic/main/assets/media/accuracy.png)
+![Confusion Matrix](https://github.com/ckids-datafirst/2023-fall-forensic/blob/main/assets/media/confusion%20matrix.png?raw=true)
 
-Offer a discussion of the main findings using the system developed. Put the results in the context of the original problem statement and the questions that were posed.
+## Future Work
 
-Discuss any unexpected results, and potential explanations.
-
-Enumerate (ideally in bullets) the most important findings, and their impact on your project goals.
-
-## Limitations and Future Work
-
-Discuss any limitations of the work to date, how these limitations could be addressed in future work.  Discuss what lines of work are most promising given the understanding of the problem and the data gained throughout the project.
+- Differentiate between subtypes of option-posing questions
+    - Yes-no questions (“Did you go home that night?”)
+    - Forced choice questions (“Did you go home that night or did you stay with your sister?”)
+    - Suggestive questions (“You went home that night, didn’t you?”)
+- Categorize children’s responses
+    - Unelaborated (Q: “Did you go home that night?” A: “No.”)
+    - Elaborated (Q: “Did you go home that night?” A: “No, I stayed with my sister.”)
