@@ -2,17 +2,17 @@
 bio: "I'm a student"
 education:
   courses:
-    - course: BS in Computer Science
+    - course: Master's In Computer Science
       institution: University of Southern California
-      year: 2015
-email: fakeemail@isi.edu
-first_name: Buffy
-last_name: Summers
+      year: Fall 2023
+email: ashmikaa@usc.edu
+first_name: Ashmika
+last_name: Gupte
 organizations:
   - name: University of Southern California
-    url: "https://www.usc.edu/"
+    url: "https://www.linkedin.com/in/ashmika-gupte/"
 role: Student
-title: Buffy Summers
+title: Ashmika Gupte
 user_groups:
   - Students
 ---
