@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        The title of your CDISK project
+        Automated question type coding of forensic interviews
       image:
         filename: welcome.jpg
       text: |
