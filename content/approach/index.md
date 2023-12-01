@@ -18,12 +18,14 @@ Describe the steps taken to preprocess the raw data to prepare it for analysis. 
 
 ## Exploratory Data Analysis (EDA)
 
-Discuss any techniques employed to gain insights into the data. This could include data visualizations, generating summary statistics, initial analysis, and other exploratory techniques used to understand the data distributions, features, and helpful patterns.
+In our Exploratory Data Analysis (EDA), we utilized bar graphs to visually represent the distribution of four question types: Non-questions, Option-posing questions, Invitations, and Directives. This approach provided insightful insights into the dataset's composition, aiding in identifying patterns and trends. The visualizations during EDA served as a foundational step for subsequent model development, fine-tuning, and the goal of accurate automated question type coding.
+
+![Question Type](https://github.com/ckids-datafirst/2023-fall-forensic/blob/main/assets/media/question%20types.png?raw=true)
 
 ## Model Development
 
-Describe the algorithms, methodology, and architectures used to generate models.  Discuss how models were generated, seeded, and improved.  Show the libraries and frameworks used for model development, as well as the rationale behind those choices.
+For model development, we leveraged the RoBERTa architecture from Hugging Face as our pre-trained model, chosen for its state-of-the-art natural language processing capabilities. The fine-tuning process involved refining the model using an oversampled dataset, a strategic approach to address the challenge of low invitation frequency. This methodology ensured the model's adaptability to the nuances of diverse question types, enhancing its performance in automated question type coding. The selection of RoBERTa and the fine-tuning on the oversampled dataset align with our goal of achieving a high-quality, specialized model for accurate and nuanced classification in forensic interviews and court transcripts analysis.
 
 ## Model Evaluation
 
-Discuss the evaluation metrics used to assess model performance, and justify those choices based on the problem that the project is addressing. Describe the evaluation techniques used, such as cross-validation, and how undesirable model behaviors, such as overfitting, were avoided.
+In evaluating our automated question type coding model, we utilized a robust set of metrics, including the confusion matrix and F1 accuracy scores. These metrics, chosen for their ability to comprehensively assess the model's performance, were instrumental in addressing the intricate challenge of distinguishing question types. The results showcased a high level of human-machine agreement, with accuracies of 82% for non-questions, 82% for option-posing questions, an impressive 98% for wh-questions, and a notable 96% for invitations. This strategic choice of evaluation techniques ensured a thorough understanding of the model's proficiency, guarding against undesirable behaviors like overfitting.
