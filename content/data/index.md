@@ -14,6 +14,9 @@ The Data Assessment Document introduces a comprehensive overview of our project,
 ## Data Overview and Examples
 
 This is an overview of a Automated Question Type Coding dataset:
+
+![Data Distribution](https://github.com/ckids-datafirst/2023-fall-forensic/blob/main/assets/media/dataset-distribution.png?raw=true)
+
 ![Question Types](https://github.com/ckids-datafirst/2023-fall-forensic/blob/main/assets/media/question%20types.png?raw=true)
 
 ## Data Accessibility
