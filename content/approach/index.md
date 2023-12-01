@@ -6,15 +6,11 @@ editable: true
 share: false
 ---
 
-This page contains key sections of the **Final Report** for the project focused on the data science methodology used to approach the problem.  It should be no more than 3 pages long.  It should be done after or in combination with the Requirements document.  It should have an initial release after no more than eight weeks into the project, and can serve as an interim project report.  It can be refined as the project progresses and the problem is better understood.  
-
-## Data Quality
-
-Describe any steps that were used to address any issues concerning the quality of the data.  This may include collecting data quality metrics, discarding subsets of the data, or applying specific techniques for handling missing values, dealing with outliers, etc. 
+This page serves as a pivotal component of the **Final Report**, outlining the data science methodology employed to tackle the project's challenges. It combines insights from the Requirements document and evolves as the project advances and a deeper understanding of the problem is attained.
 
 ## Data Preprocessing
 
-Describe the steps taken to preprocess the raw data to prepare it for analysis. This may include data transformations to convert to a required format, feature engineering operations, encoding features as binary, etc.
+In the data preprocessing phase, we focused on refining the raw data for model training. The "question" column (T), representing the questions used for model training, was prioritized. Simultaneously, lines marked with "1" in the "excluded" column (V) were omitted as they fell beyond the project's scope. Additionally, attention was given to the "updatedQT" column (X), containing human-coded question codes (0, 1, 2, 3). These essential steps ensured the dataset's relevance and alignment with project objectives, paving the way for effective model training and subsequent analysis of automated question type coding.
 
 ## Exploratory Data Analysis (EDA)
 
